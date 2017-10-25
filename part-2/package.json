@@ -1,0 +1,19 @@
+{
+  "name": "part-2",
+  "version": "1.0.0",
+  "description": "Command Line Grocery Store",
+  "main": "store.js",
+  "scripts": {
+    "test": "mocha database_test.js"
+  },
+  "author": "Amine. Ch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "node-print": "0.0.4",
+    "pg": "^7.3.0",
+    "pg-promise": "^7.0.3"
+  }
+}
